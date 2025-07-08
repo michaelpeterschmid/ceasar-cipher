@@ -1,0 +1,31 @@
+textarea{
+    width: 50%;
+}
+button, input[type=button]{
+    width: 200px;
+    height: 30px;
+    font-size: medium;
+    font-weight: normal;
+}
+input{
+    font-size: larger;
+    font-weight: bold;
+    border: 3px solid black;
+}
+span{
+    font-size: large;
+}
+button:hover, input[type=button]:hover{
+    background-color: lightcoral;
+    width: 220px;
+    height: 33px;
+    font-weight: bold;
+}
+h1{
+    float: left;
+    padding-right: 20px;
+    padding-top: 50px;
+}
+img{
+    width: 170px;
+}

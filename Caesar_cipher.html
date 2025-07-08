@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="A simple Caesar Cipher implementation in JavaScript.">
+        <meta name="keywords" content="Caesar Cipher, JavaScript, Encryption, Decryption, Frequency Analysis">
+        <meta name="author" content="Schmid">
+        <link rel="stylesheet" href="style.css">
+        <title>Caesar Cipher</title>
+        
+    </head>
+    <body>
+        <h1>CEASAR CIPHER by Schmid</h1> <img src="Ceasar.jpg" alt="">
+        <br>
+        <textarea name="usertext" id="usertext" cols="30" rows="10" placeholder="Enter your plaintext or ciphertext here"></textarea > <br> <br>
+        <hr>
+        <h2>Encrypt message</h2> 
+        <span>How many letters should "A" be shifted?</span> <input type="number" value="1" min="0" max="25" id="verschiebung">
+        <br>
+        <button onclick="encrypt()">encrypt plain text</button>
+        <br>
+        <hr>
+        <h2>Decrypt message (frequency analysis):</h2>
+        <button onclick="decrypt()">decrypt cipher text</button> 
+        <br>
+        <hr>
+        <br>
+        <br>
+        <h2>Output:</h2>
+        <textarea name="outputtext" id="outputtext" cols="30" rows="10" placeholder="Here will be the output"></textarea>
+        <br>
+       <script src="logic.js"></script>
+    </body>
+</html>
